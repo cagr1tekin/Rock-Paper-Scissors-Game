@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(150, 175, 175, 0.5);
+}
+.container0{
+    width: 100%;
+    height: auto;
+    background-color: rgba(150, 175, 175, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    border-radius: 5px;
+    margin: 3%;
+    width: 1000px;
+    height: 735px;
+    background-color: rgba(75, 74, 106, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container2{
+    border-radius: 5px;
+    background-color: rgb(223, 207, 181);
+    width: 700px;
+    height: 50%;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winORlose{
+    text-align: center;
+    justify-content: center;
+    color: rgb(98, 123, 98);
+    font-size: 100px;
+}
+
+.scoreBoard-container{
+    border-radius: 5px;
+    width: 200px;
+    height: 75px;
+    background: rgb(223, 207, 181);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 75px;
+    color: rgb(75, 74, 106);
+    
+}
+.container3{
+    background-color: rgb(223, 207, 181);
+    width: auto;
+    height: auto;
+    margin: 2%;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.pc-option-container{
+    border-radius: 5px;
+    width: 40%;
+    height: 70%;
+    background-color: rgba(194, 0, 11, 0.4);
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(194, 0, 11);
+}
+.me-option-container{
+    border-radius: 5px;
+    width: 40%;
+    height: 70%;
+    background-color: rgba(239, 149, 63, 0.4);
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: 	rgb(239, 149, 63);
+}
+.vs-container{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(223, 207, 181);
+    border-radius: 30%;
+}
+.container3-inner{
+    margin: 5px;
+    flex: 4;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(75, 74, 106);
+    border-radius: 50%;
+    border-color: white;
+    border-style: double;
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pc-option-container img{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+    
+}
+.vs-container img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+    overflow: visible;
+}
+.me-option-container img {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+}
+
+.againBtn{
+    border-radius: 5px;
+    width: 360px;
+    height: 120px;
+    background-color: rgb(98, 123, 98);
+    color: white;
+    font-size: 30px;
+    border-style: double;
+    border-color: white;
+}
